@@ -167,6 +167,8 @@ class Company extends React.Component {
             </p>
              <Flex justifyContent="flex-start" alignItems="baseline" styleOverrides={[styles.bodyText, styles.clipping]}>
               <span style={styles.publication}> Power (2018), by Carl Miller </span>
+              <a style={styles.pressURL} href="http://www.thebookseller.com/news/william-heinemann-publish-study-power-21st-century-448531"> William Heinemann to publish study of power in the 21st century </a>
+            </Flex>
             </Flex>
           </div>
         </Flex>
