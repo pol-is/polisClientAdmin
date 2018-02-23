@@ -6,9 +6,7 @@ import { populateUserStore } from "../actions";
 
 import Radium from "radium";
 import _ from "lodash";
-// import {Link} from "react-router";
 import StarsSpinner from "./framework/stars-spinner";
-// import Awesome from "react-fontawesome";
 import Sidebar from "react-sidebar";
 import SidebarContentConversation from "./sidebar-content-conversation";
 import SidebarContentHome from "./sidebar-content-home";
@@ -19,7 +17,6 @@ import Flex from "./framework/flex";
 
 const styles = {
   container: {
-    // backgroundColor: "rgb(240,240,247)",
     backgroundColor: "white",
     height: "100%",
     margin: 0
@@ -35,7 +32,6 @@ class App extends React.Component {
     super(props);
     this.state = {
       sidebarOpen: false
-      // sidebarDocked: true,
     };
   }
   static propTypes = {
@@ -48,12 +44,8 @@ class App extends React.Component {
     user: React.PropTypes.object,
     routes: React.PropTypes.array,
     isLoggedIn: React.PropTypes.bool,
-    // foo: React.PropTypes.string
   }
-  static defaultProps = {
-    // foo: "bar"
-  }
-
+  
   loadUserData() {
     this.props.dispatch(populateUserStore());
   }
@@ -241,16 +233,6 @@ class App extends React.Component {
         {"Loading pol.is..."}
       </Flex>
     )
-    // return (
-    //   <StarsSpinner
-    //     text={""}
-    //     nodeColor={ "rgb(150,150,150)" }
-    //     count={ Math.floor(window.innerWidth / 10) }
-    //     width={ window.innerWidth }
-    //     height={ window.innerHeight }
-    //     radius={ 1.5 }
-    //     lineWidth={ 1 }/>
-    // )
   }
   render() {
     return (

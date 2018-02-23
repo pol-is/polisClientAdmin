@@ -3,7 +3,6 @@
 import React from "react";
 import { connect } from "react-redux";
 import Radium from "radium";
-// import _ from "lodash";
 import Awesome from "react-fontawesome";
 import {Link} from "react-router";
 import MaterialTitlePanel from "./material-title-panel-sidebar";
