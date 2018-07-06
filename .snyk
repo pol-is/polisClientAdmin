@@ -1,0 +1,546 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - victory-chart > victory-axis > victory-animation > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-util > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-util > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-util > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-util > builder-victory-component > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-util > builder-victory-component > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-util > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-util > builder-victory-component > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-util > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-util > builder-victory-component > babel-loader > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-util > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-util > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-util > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-animation > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-animation > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-animation > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-animation > builder-victory-component > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-animation > builder-victory-component > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-animation > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-animation > builder-victory-component > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-animation > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-animation > builder-victory-component > babel-loader > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-animation > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-animation > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-animation > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > builder-victory-component > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > builder-victory-component > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > builder-victory-component > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > builder-victory-component > babel-loader > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > victory-util > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > victory-util > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > victory-util > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > victory-util > builder-victory-component > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > victory-util > builder-victory-component > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > victory-util > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > victory-util > builder-victory-component > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > victory-util > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > victory-util > builder-victory-component > babel-loader > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > victory-util > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > victory-util > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > victory-label > victory-util > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-util > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-util > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-util > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-util > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-util > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-util > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-util > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-util > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-animation > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-animation > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-animation > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-animation > builder-victory-component > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-animation > builder-victory-component > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-animation > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-animation > builder-victory-component > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-animation > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-animation > builder-victory-component > babel-loader > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-animation > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-animation > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-animation > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-label > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-label > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-label > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-label > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-label > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-label > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-label > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-label > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-label > victory-util > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-label > victory-util > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-label > victory-util > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-label > victory-util > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-label > victory-util > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-label > victory-util > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-label > victory-util > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-bar > victory-label > victory-util > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-util > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-util > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-util > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-util > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-util > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-util > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-util > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-util > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-util > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-util > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-util > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-util > builder-victory-component > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-util > builder-victory-component > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-util > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-util > builder-victory-component > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-util > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-util > builder-victory-component > babel-loader > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-util > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-util > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-util > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-animation > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-axis > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-animation > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-animation > builder-victory-component > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-animation > builder-victory-component > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-animation > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-animation > builder-victory-component > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-animation > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-animation > builder-victory-component > babel-loader > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-animation > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-animation > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-animation > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > builder-victory-component > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > builder-victory-component > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > builder-victory-component > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > builder-victory-component > babel-loader > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > victory-util > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > victory-util > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > victory-util > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > victory-util > builder-victory-component > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > victory-util > builder-victory-component > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > victory-util > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > victory-util > builder-victory-component > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > victory-util > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > victory-util > builder-victory-component > babel-loader > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > victory-util > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > victory-util > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-axis > victory-label > victory-util > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-util > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-util > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-util > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-util > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-util > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-util > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-util > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-util > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-animation > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-animation > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-animation > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-animation > builder-victory-component > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-animation > builder-victory-component > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-animation > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-animation > builder-victory-component > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-animation > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-animation > builder-victory-component > babel-loader > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-animation > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-animation > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-animation > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-label > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-label > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-label > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-label > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-label > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-label > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-label > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-label > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-label > victory-util > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-label > victory-util > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-label > victory-util > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-label > victory-util > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-label > victory-util > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-label > victory-util > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-label > victory-util > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-chart > victory-line > victory-label > victory-util > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-pie > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-pie > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-pie > victory-util > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-pie > victory-util > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-pie > victory-util > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-pie > victory-util > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-pie > victory-util > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-pie > victory-util > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-pie > victory-util > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-pie > victory-util > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-pie > builder-react-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-pie > builder-react-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-pie > builder-react-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-pie > builder-react-component > babel-loader > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-pie > victory-animation > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-pie > victory-animation > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-pie > victory-animation > builder-react-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-pie > victory-animation > builder-react-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-pie > victory-animation > builder-react-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-pie > victory-animation > builder-react-component > babel-loader > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-util > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-util > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-util > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-util > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-util > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-util > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-util > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-util > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-label > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-label > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-label > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-label > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-label > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-label > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-label > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-label > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-label > victory-util > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-label > victory-util > builder-victory-component > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-label > victory-util > builder-victory-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-label > victory-util > builder-victory-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-label > victory-util > builder-victory-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-label > victory-util > builder-victory-component > radium > babel > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-label > victory-util > builder-victory-component > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-label > victory-util > builder-victory-component > radium > babel > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > builder-react-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > builder-react-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > builder-react-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > builder-react-component > babel-loader > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-animation > builder > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-animation > radium > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-animation > builder-react-component > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-animation > builder-react-component > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-animation > builder-react-component > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
+    - victory-line > victory-animation > builder-react-component > babel-loader > babel-core > lodash:
+        patched: '2018-07-06T01:29:12.642Z'
