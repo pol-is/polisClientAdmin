@@ -69,7 +69,7 @@
     "radium": "^0.15.0",
     "react": "^15.5.4",
     "react-codemirror": "^0.2.1",
-    "react-dom": "^15.5.4",
+    "react-dom": "^16.0.1",
     "react-fontawesome": "^0.3.3",
     "react-highlight": "^0.5.1",
     "react-markdown": "^1.1.0",
