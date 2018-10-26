@@ -1,0 +1,56 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:minimatch:20160620':
+    - victory-pie > victory-util > builder-victory-component > radium > babel > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-pie > builder-react-component > babel-loader > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-line > victory-animation > builder-react-component > babel-loader > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-pie > victory-animation > builder-react-component > babel-loader > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-bar > victory-animation > builder-victory-component > radium > babel > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-axis > victory-util > builder-victory-component > radium > babel > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-line > victory-label > builder-victory-component > radium > babel > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-chart > victory-util > builder-victory-component > radium > babel > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-line > victory-util > builder-victory-component > radium > babel > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-bar > victory-util > builder-victory-component > radium > babel > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-bar > victory-label > builder-victory-component > radium > babel > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-axis > victory-label > builder-victory-component > radium > babel > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-line > builder-react-component > babel-loader > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-axis > victory-animation > builder-victory-component > radium > babel > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-chart > victory-axis > victory-label > builder-victory-component > radium > babel > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-chart > victory-line > victory-util > builder-victory-component > radium > babel > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-chart > victory-axis > victory-util > builder-victory-component > radium > babel > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-chart > victory-line > victory-label > builder-victory-component > radium > babel > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-chart > victory-axis > victory-animation > builder-victory-component > radium > babel > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-chart > victory-line > victory-animation > builder-victory-component > radium > babel > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-bar > victory-label > victory-util > builder-victory-component > radium > babel > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-axis > victory-label > victory-util > builder-victory-component > radium > babel > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-line > victory-label > victory-util > builder-victory-component > radium > babel > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-chart > victory-axis > victory-label > victory-util > builder-victory-component > radium > babel > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
+    - victory-chart > victory-line > victory-label > victory-util > builder-victory-component > radium > babel > babel-core > minimatch:
+        patched: '2018-10-26T01:29:45.915Z'
