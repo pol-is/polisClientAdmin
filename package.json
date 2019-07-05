@@ -15,7 +15,9 @@
     "deploy:preprod": "./deployPreprod",
     "start": "./x",
     "lint": "eslint src",
-    "test": "jest"
+    "test": "jest",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Colin Megill",
   "devDependencies": {
@@ -93,7 +95,8 @@
     "victory-chart": "2.1.1",
     "victory-line": "0.5.6",
     "victory-pie": "0.1.4",
-    "whatwg-fetch": "^0.10.1"
+    "whatwg-fetch": "^0.10.1",
+    "snyk": "^1.192.0"
   },
   "jest": {
     "collectCoverage": true,
@@ -103,5 +106,6 @@
       "lcov",
       "text-summary"
     ]
-  }
+  },
+  "snyk": true
 }
