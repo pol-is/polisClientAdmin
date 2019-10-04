@@ -62,7 +62,7 @@
     "color": "^0.7.3",
     "highlight.js": "^8.9.1",
     "history": "^1.12.5",
-    "jquery": "^2.1.4",
+    "jquery": "^3.4.0",
     "lodash": "^3.10.1",
     "material-ui": "^0.13.4",
     "moment": "^2.10.6",
