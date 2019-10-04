@@ -63,7 +63,7 @@
     "highlight.js": "^8.9.1",
     "history": "^1.12.5",
     "jquery": "^2.1.4",
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.13",
     "material-ui": "^0.13.4",
     "moment": "^2.10.6",
     "prop-types": "^15.5.10",
