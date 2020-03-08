@@ -13,4 +13,4 @@ COPY . .
 
 #CMD npm start
 
-CMD [ "node", "dev-server.js" ]
+CMD node dev-server.js
