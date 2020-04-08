@@ -161,12 +161,9 @@ class Company extends React.Component {
               <span style={styles.publication}> GeekWire </span>
               <a style={styles.pressURL} href="http://www.geekwire.com/2014/startup-spotlight-polis/"> Startup Spotlight: pol.is </a>
             </Flex>
-
-            <p id="forthcoming" style={[styles.heading, {marginTop: 50, marginBottom: 30}]}>
-              Forthcoming...
-            </p>
              <Flex justifyContent="flex-start" alignItems="baseline" styleOverrides={[styles.bodyText, styles.clipping]}>
-              <span style={styles.publication}> Power (2018), by Carl Miller </span>
+              <span style={styles.publication}> The Economist </span>
+              <a style={styles.pressURL} href="https://www.economist.com/open-future/2018/09/24/there-is-not-enough-control-over-the-digital-world"> There is not enough control over the digital world: book excerpt from "Death of the Gods" </a>
             </Flex>
           </div>
         </ContainerInner>
