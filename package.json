@@ -15,7 +15,9 @@
     "deploy:preprod": "./deployPreprod",
     "start": "./x",
     "lint": "eslint src",
-    "test": "jest"
+    "test": "jest",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Colin Megill",
   "devDependencies": {
@@ -62,7 +64,7 @@
     "color": "^0.7.3",
     "highlight.js": "^8.9.1",
     "history": "^1.12.5",
-    "jquery": "^2.1.4",
+    "jquery": "^3.5.0",
     "lodash": "^3.10.1",
     "material-ui": "^0.13.4",
     "moment": "^2.10.6",
@@ -93,7 +95,8 @@
     "victory-chart": "2.1.1",
     "victory-line": "0.5.6",
     "victory-pie": "0.1.4",
-    "whatwg-fetch": "^0.10.1"
+    "whatwg-fetch": "^0.10.1",
+    "snyk": "^1.316.1"
   },
   "jest": {
     "collectCoverage": true,
@@ -103,5 +106,6 @@
       "lcov",
       "text-summary"
     ]
-  }
+  },
+  "snyk": true
 }
