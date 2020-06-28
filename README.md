@@ -15,6 +15,13 @@ nvm install 6.2.0
 npm install
 ```
 
+Now copy the config template and edit the file to update the values.
+
+```sh
+cp polis.config.template.js polis.config.js
+vim polis.config.js # update configuration
+```
+
 ### Common Problems
 
 If you having troubles with npm dependencies try run the commands below:
