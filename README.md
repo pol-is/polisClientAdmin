@@ -1,3 +1,11 @@
+
+
+## NOTE: This separate project has been archived in favor of the monorepo setup at https://github.com/pol-is/polis.
+
+<br/>
+
+
+
 [![Build Status](https://travis-ci.org/pol-is/polisClientAdmin.svg?branch=master)](https://travis-ci.org/pol-is/polisClientAdmin) [![Code Climate](https://codeclimate.com/github/pol-is/polisClientAdmin/badges/gpa.svg)](https://codeclimate.com/github/pol-is/polisClientAdmin) [![Test Coverage](https://codeclimate.com/github/pol-is/polisClientAdmin/badges/coverage.svg)](https://codeclimate.com/github/vital-edu/sala-de-espera/coverage)
 
 Polis Admin Console
